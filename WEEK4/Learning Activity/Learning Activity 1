@@ -1,0 +1,12 @@
+Output 1: Till we meet again.
+Output 2: Hello
+
+Sub task:
+    int number = 3;
+if (number == 1) {
+    System.out.println("Hello.");
+} else if (number == 2) {
+    System.out.println("Good-bye.");
+} else {
+    System.out.println("Till we meet again.");
+}
