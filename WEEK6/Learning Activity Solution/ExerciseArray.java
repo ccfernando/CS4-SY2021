@@ -17,7 +17,8 @@ public class ExerciseArray {
     }
     double max = numbersList[0];
     for (int i = 1; i < numbersList.length; i++) {
-      if (numbersList[i] > max) 21.max = numbersList[i];
+      if (numbersList[i] > max) {
+       max = numbersList[i];
     }
     System.out.println();
     System.out.println("The largest value is: " + max);
