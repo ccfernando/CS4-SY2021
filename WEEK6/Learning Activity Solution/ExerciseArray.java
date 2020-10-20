@@ -1,4 +1,4 @@
-import java.util.* ;
+import java.util.*;
 public class ExerciseArray {
   public static void main(String[] args) {
 
@@ -22,5 +22,6 @@ public class ExerciseArray {
     }
     System.out.println();
     System.out.println("The largest value is: " + max);
+    }
   }
 }
