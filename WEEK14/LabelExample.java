@@ -6,7 +6,7 @@
          luser.setBounds(50, 100, 100, 30);
          lpass = new Label("Password:");
          lpass.setBounds(50, 150, 100, 30);
-         MyFrame add(luser);
+         MyFrame.add(luser);
          MyFrame.add(lpass);
          MyFrame.setSize(400, 400);
          MyFrame.setLayout(null);
