@@ -2,7 +2,7 @@ import java.awt. * ;
 import javax.swing. * ;
 public class GridlayoutExample {
   JFrame GridFrame;
-  BorderExample() {
+  GridlayoutExample() {
     GridFrame = new JFrame();
     JButton gridbutton1 = new JButton("Gridbutton1");
     JButton gridbutton2 = new JButton("Gridbutton2");
@@ -28,6 +28,6 @@ public class GridlayoutExample {
     GridFrame.setVisible(true);
   }
   public static void main(String[] args) {
-    new BorderExample();
+    new GridlayoutExample();
   }
 }
